@@ -33,11 +33,9 @@ Inversion of Control (_https://martinfowler.com/bliki/InversionOfControl.html_)
 # TOPICS
 
 - Basics of APIs
-- Inversion of Control/Information Hiding/Modular Programming
 - Web APIs
-- Endpoints
-- SOAP/REST/XML/GraphQL
 - Enterprise Software Communication
+- Web APIs with Rails
 
 
 ---
@@ -144,4 +142,7 @@ stateless operations
 - __Loosely-coupled system__:
 A system where each _component_ has no knowledge of implementations of other
 componenets. (API-based interaction)
+
+- __Service-Oriented Architecture vs Feeds__ --> _Integrity vs Availability_
+
 
