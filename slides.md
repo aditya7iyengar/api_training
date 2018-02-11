@@ -35,7 +35,7 @@ Inversion of Control (_https://martinfowler.com/bliki/InversionOfControl.html_)
 - Basics of APIs
 - Web APIs
 - Enterprise Software Communication
-- Web APIs with Rails
+- RESTful Web APIs with Rails
 
 
 ---
@@ -137,6 +137,7 @@ stateless operations
 
 ---
 
+
 # Emterprise Software Communication
 
 - __Loosely-coupled system__:
@@ -144,5 +145,38 @@ A system where each _component_ has no knowledge of implementations of other
 componenets. (API-based interaction)
 
 - __Service-Oriented Architecture vs Feeds__ --> _Integrity vs Availability_
+
+
+---
+# notes
+
+---
+
+---
+# questions/notes while presenting
+
+---
+
+
+# RESTful API in Rails
+
+- Rails >= 5.0 have native support for server-side API.
+- For client-side, we use `faraday` and `her` gems.
+- Store App:
+      - products (& categories)
+      - api endpoint for products
+      - api client the consumes that endpoint
+
+# -----------------
+
+```
+██╗     ███████╗████████╗███████╗     ██████╗ ██████╗ ██████╗ ███████╗██╗
+██║     ██╔════╝╚══██╔══╝██╔════╝    ██╔════╝██╔═══██╗██╔══██╗██╔════╝██║
+██║     █████╗     ██║   ███████╗    ██║     ██║   ██║██║  ██║█████╗  ██║
+██║     ██╔══╝     ██║   ╚════██║    ██║     ██║   ██║██║  ██║██╔══╝  ╚═╝
+███████╗███████╗   ██║   ███████║    ╚██████╗╚██████╔╝██████╔╝███████╗██╗
+╚══════╝╚══════╝   ╚═╝   ╚══════╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝
+```
+
 
 
